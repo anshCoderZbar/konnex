@@ -3,7 +3,7 @@ import AllRoutes from "./routes";
 
 function App() {
   return (
-    <div>
+    <div id="page" className="hfeed site row">
       <AllRoutes />
     </div>
   );
