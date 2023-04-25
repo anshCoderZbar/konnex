@@ -2106,7 +2106,7 @@ fieldset[disabled] input[type="color"],
 textarea[disabled],
 textarea[readonly],
 fieldset[disabled] textarea {
-  background-color: #dddddd;
+  background-color: #f5f5f5;
   cursor: default;
 }
 input[type="text"].radius,
@@ -10765,12 +10765,15 @@ input[type="text"].file-upload-input {
   border: 0;
   border-radius: 0;
   color: #fff;
-  height: 37px;
   width: 30%;
   line-height: 1;
   text-align: center;
   padding: 0;
   outline: 0;
+  display: flex !important;
+  height: 37px;
+  justify-content: center;
+  align-items: center;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -11318,4 +11321,26 @@ div#search-jobs .columns {
 }
 .jobs .row.medium-uncollapse > .column, .row.medium-uncollapse > .columns{
   padding: 0 !important;
+}
+
+
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+  font-size: 15px;
+}
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root input {
+
+  font-size: 15px;
+  border: 0;
+  background-color: whitesmoke;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-width: 0px !important;
+  border: 0;
+}
+.errorMessage{
+    color: #dc3232;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
 }

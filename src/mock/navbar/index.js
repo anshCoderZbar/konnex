@@ -5,16 +5,16 @@ export const navbarData = [
     subMenu: [
       { id: "1", title: "Vorteile", slug: "/advantages" },
       { id: "2", title: "Aktuelle Jobs", slug: "/jobs" },
-      { id: "3", title: "Jetzt bewerben!", slug: "/" },
+      { id: "3", title: "Jetzt bewerben!", slug: "/apply-now" },
     ],
   },
   {
     id: 2,
     title: "für Unternehmen",
     subMenu: [
-      { id: "1", title: "Vorteile", slug: "/" },
-      { id: "2", title: "Zeitarbeit heute", slug: "/" },
-      { id: "3", title: "Personalvermittlung", slug: "/" },
+      { id: "1", title: "Vorteile", slug: "/company-advantages" },
+      { id: "2", title: "Zeitarbeit heute", slug: "/temporary-work" },
+      { id: "3", title: "Personalvermittlung", slug: "/recruitment" },
       { id: "4", title: "On-Site-Management", slug: "/" },
       { id: "5", title: "Outsourcing", slug: "/" },
       { id: "6", title: " Master-Vendor-Management", slug: "/" },
@@ -40,7 +40,7 @@ export const navbarData = [
   {
     id: 4,
     title: "Aktuelles",
-    slug: "/home",
+    slug: "/current",
   },
   {
     id: 5,

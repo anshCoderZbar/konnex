@@ -29,11 +29,11 @@ export const Navbar = () => {
               >
                 <ul id="menu-hauptnavigation" className="">
                   {navbarData.length >= 1 &&
-                    navbarData.map((data) => {
+                    navbarData.map((data, i) => {
                       return (
                         <li
-                          key={data?.id}
-                          id="menu-item-573"
+                          key={i}
+                          id={data?.id}
                           onClick={() => {
                             data?.subMenu?.length >= 1
                               ? setSubMenu(!subMenu)

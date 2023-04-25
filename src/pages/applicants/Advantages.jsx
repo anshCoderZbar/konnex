@@ -25,10 +25,10 @@ export const Advantages = () => {
           <span>Advantages</span>
         </span>
       </div>
-      <div class="row">
-        <div class="medium-8 tablet-portrait-12 column">
-          <h1 class="section-title">Unsere Vorteile für Bewerber </h1>
-          <div class="box">
+      <div className="row">
+        <div className="medium-8 tablet-portrait-12 column">
+          <h1 className="section-title">Unsere Vorteile für Bewerber </h1>
+          <div className="box">
             <p>
               <strong>Sie suchen einen neuen Job?</strong> Sie sind unzufrieden
               mit Ihrem jetztigen Arbeitgeber? Sie wollen nach Ausbildung oder
@@ -98,9 +98,9 @@ export const Advantages = () => {
               Die erreichen wir nur, wenn Sie sich bei Ihrer Tätigkeit
               wohlfühlen.
             </p>
-            <div class="text-center">
-              <a class="ghost-btn" href="#">
-                <i class="icon-Pfeil-rechts"></i>Jetzt bewerben!
+            <div className="text-center">
+              <a className="ghost-btn" href="#">
+                <i className="icon-Pfeil-rechts"></i>Jetzt bewerben!
               </a>
             </div>
           </div>
