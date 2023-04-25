@@ -4,6 +4,9 @@ import "styles/HomePage.css";
 import { MainSearch } from "common/components/Main-search";
 
 import { sliderData } from "mock/index/data";
+import { BlogCard } from "common/components/Blog-card";
+import { blogs } from "mock/blog";
+import { TestimonialCard } from "common/components/Testimonial-card";
 
 const Home = () => {
   return (
@@ -171,78 +174,78 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="mar-t20 row" data-equalizer>
-        <div class="medium-4 tablet-portrait-12 column">
-          <h3 class="section-title">Für Bewerber</h3>
-          <div class="box grey" data-equalizer-watch>
+      <div className="mar-t20 row">
+        <div className="medium-4 tablet-portrait-12 column">
+          <h3 className="section-title">Für Bewerber</h3>
+          <div className="box grey" data-equalizer-watch>
             <p>
               <strong>Aktuelle Job-Angebote</strong>
             </p>
 
-            <ul class="job-title-list">
-              <li class="highlighted">
-                <i class="icon-Pfeil-rechts"></i>
+            <ul className="job-title-list">
+              <li className="highlighted">
+                <i className="icon-Pfeil-rechts"></i>
                 <a href="jobs/top-jobs-fuer-studierende/index.html">
                   Top-Jobs für Studierende
                 </a>
               </li>
-              <li class="highlighted">
-                <i class="icon-Pfeil-rechts"></i>
+              <li className="highlighted">
+                <i className="icon-Pfeil-rechts"></i>
                 <a href="jobs/mitarbeiter-m-w-d-fuer-die-bargeldzaehlung-und-pruefung/index.html">
                   Mitarbeiter (m/w/d) für die Bargeldzählung und Prüfung
                 </a>
               </li>
-              <li class="">
-                <i class="icon-Pfeil-rechts"></i>
+              <li className="">
+                <i className="icon-Pfeil-rechts"></i>
                 <a href="jobs/dringend-mitarbeiter-gesucht/index.html">
                   Dringend Mitarbeiter gesucht
                 </a>
               </li>
-              <li class="highlighted">
-                <i class="icon-Pfeil-rechts"></i>
+              <li className="highlighted">
+                <i className="icon-Pfeil-rechts"></i>
                 <a href="jobs/dringend-verkaufsmitarbeiter-gesucht/index.html">
                   Verkaufsmitarbeiter gesucht
                 </a>
               </li>
-              <li class="highlighted">
-                <i class="icon-Pfeil-rechts"></i>
+              <li className="highlighted">
+                <i className="icon-Pfeil-rechts"></i>
                 <a href="jobs/mechatroniker-m-w-d-2/index.html">
                   Mechatroniker (m/w/d)
                 </a>
               </li>
-              <li class="highlighted">
-                <i class="icon-Pfeil-rechts"></i>
+              <li className="highlighted">
+                <i className="icon-Pfeil-rechts"></i>
                 <a href="jobs/verkaeufer-und-kassierer-m-w-d/index.html">
                   Verkäufer und Kassierer (m/w/d)
                 </a>
               </li>
-              <li class="highlighted">
-                <i class="icon-Pfeil-rechts"></i>
+              <li className="highlighted">
+                <i className="icon-Pfeil-rechts"></i>
                 <a href="jobs/produktionsmitarbeiter-m-w-d-12-euro-std/index.html">
                   Produktionsmitarbeiter (m/w/d) 12 €/Std
                 </a>
               </li>
-              <li class="highlighted">
-                <i class="icon-Pfeil-rechts"></i>
+              <li className="highlighted">
+                <i className="icon-Pfeil-rechts"></i>
                 <a href="jobs/kommissionierer-m-w-d/index.html">
                   Kommissionierer (m/w/d)
                 </a>
               </li>
-              <li class="highlighted">
-                <i class="icon-Pfeil-rechts"></i>
+              <li className="highlighted">
+                <i className="icon-Pfeil-rechts"></i>
                 <a href="jobs/technischer-zeichner-m-w-d/index.html">
                   Technischer Zeichner (m/w/d)
                 </a>
               </li>
             </ul>
-            <a href="jobs/index.html" class="more-btn">
-              <span class="icon-Pfeil-rechts"></span>MEHR
+            <a href="jobs/index.html" className="more-btn">
+              <span className="icon-Pfeil-rechts"></span>MEHR
             </a>
           </div>
         </div>
-        <div class="medium-4 tablet-portrait-12 column">
-          <h3 class="section-title yellow">Sicherheit und Qualität</h3>
-          <div class="box grey" data-equalizer-watch>
+        <div className="medium-4 tablet-portrait-12 column">
+          <h3 className="section-title yellow">Sicherheit und Qualität</h3>
+          <div className="box grey" data-equalizer-watch>
             <p>
               KONNEX Zeitarbeit bietet individuelle Personallösungen für kleine
               und große Unternehmen. Wir halten Ihnen den Rücken frei –
@@ -251,7 +254,8 @@ const Home = () => {
                 title="iGZ Zeitarbeit"
                 href="http://www.ig-zeitarbeit.de/"
                 target="_blank"
-                rel="noopener"
+                without
+                rel="noreferrer"
               >
                 <span style={{ color: "#144294" }}>
                   Wir richten uns nach dem Ethik-Kodex des Interessenverbandes
@@ -263,12 +267,12 @@ const Home = () => {
               <img
                 decoding="async"
                 loading="lazy"
-                class="alignnone size-medium wp-image-260"
+                className="alignnone size-medium wp-image-260"
                 src="uploads/2015/03/konnex-zeitarbeit-igz-logo-300x134.jpg"
                 alt="konnex-zeitarbeit-igz-logo"
                 width="300"
                 height="134"
-                srcset="
+                srcSet="
                         https://konnex-zeitarbeit.de/wp-content/uploads/2015/03/konnex-zeitarbeit-igz-logo-300x134.jpg 300w,
                         https://konnex-zeitarbeit.de/wp-content/uploads/2015/03/konnex-zeitarbeit-igz-logo.jpg         340w
                       "
@@ -277,15 +281,15 @@ const Home = () => {
             </p>
             <a
               href="zertifikate-und-urkunden/index.html"
-              class="more-btn yellow"
+              className="more-btn yellow"
             >
-              <span class="icon-Pfeil-rechts"></span>mehr
+              <span className="icon-Pfeil-rechts"></span>mehr
             </a>
           </div>
         </div>
-        <div class="medium-4 tablet-portrait-12 column">
-          <h3 class="section-title">Für Unternehmen</h3>
-          <div class="box grey" data-equalizer-watch>
+        <div className="medium-4 tablet-portrait-12 column">
+          <h3 className="section-title">Für Unternehmen</h3>
+          <div className="box grey" data-equalizer-watch>
             <p>
               KONNEX Zeitarbeit stellt Ihnen schnell passende Mitarbeiter zur
               Verfügung. Von der Arbeitnehmerüberlassung bis zum
@@ -309,12 +313,14 @@ const Home = () => {
                 <strong>Flexibilität ohne Risiko</strong>
               </li>
             </ul>
-            <a href="vorteile/index.html" class="more-btn">
-              <span class="icon-Pfeil-rechts"></span>Mehr
+            <a href="vorteile/index.html" className="more-btn">
+              <span className="icon-Pfeil-rechts"></span>Mehr
             </a>
           </div>
         </div>
       </div>
+      <BlogCard blog={blogs} />
+      <TestimonialCard />
     </>
   );
 };

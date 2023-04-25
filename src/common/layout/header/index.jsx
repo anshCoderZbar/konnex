@@ -1,6 +1,7 @@
 import { Logo } from "common/components/icons";
 import React from "react";
 import { Navbar } from "./Navbar";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,15 +11,15 @@ const Header = () => {
           <div className="large-12 columns">
             <div className="padd-lr">
               <div id="logo">
-                <a href="/">
+                <Link to="/home">
                   <Logo />
-                </a>
+                </Link>
               </div>
               <div id="masthead-info">
                 <p className="title">Ihr persönlicher Kontakt!</p>
                 <p>0221 3567481</p>
                 <p>
-                  <a href="/">Jetzt bewerben!</a>
+                  <Link to="/home">Jetzt bewerben!</Link>
                 </p>
               </div>
             </div>
