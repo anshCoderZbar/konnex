@@ -1,7 +1,6 @@
 {
   "name": "konnex",
   "version": "0.1.0",
-  "homepage": "https://coderzbar.info/dev/konnex",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
