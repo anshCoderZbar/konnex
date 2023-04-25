@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 import { MainSearch } from "common/components/Main-search";
 import { jobData } from "mock/Jobs-data";
-import { JobCard } from "app/jobs/JobCard";
-import { CurrentJob } from "app/jobs/CurrentJob";
+import { JobCard } from "app/applicants/JobCard";
+import { CurrentJob } from "app/applicants/CurrentJob";
 
 export const Jobs = () => {
   const [value, setValue] = useState("");
@@ -16,8 +16,6 @@ export const Jobs = () => {
       return data?.categrory.toLowerCase() === value.toLowerCase();
     }
   });
-
-  console.log(filteredData);
 
   return (
     <>
@@ -152,8 +150,8 @@ export const Jobs = () => {
               </div>
             </div>
 
-            <div class="facetwp-template" data-name="jobs">
-              <ul class="job-list">
+            <div className="facetwp-template" data-name="jobs">
+              <ul className="job-list">
                 {filteredData?.length >= 1 &&
                   filteredData?.map((jobs, i) => {
                     return <JobCard jobs={jobs} key={i} />;
