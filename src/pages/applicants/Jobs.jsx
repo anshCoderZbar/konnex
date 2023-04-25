@@ -1,7 +1,10 @@
-import { MainSearch } from "common/components/Main-search";
-import { jobData } from "mock/Jobs-data";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
+import { MainSearch } from "common/components/Main-search";
+import { jobData } from "mock/Jobs-data";
+import { JobCard } from "app/jobs/JobCard";
+import { CurrentJob } from "app/jobs/CurrentJob";
 
 export const Jobs = () => {
   const [value, setValue] = useState("");
@@ -148,44 +151,18 @@ export const Jobs = () => {
                 </div>
               </div>
             </div>
+
             <div class="facetwp-template" data-name="jobs">
               <ul class="job-list">
                 {filteredData?.length >= 1 &&
-                  filteredData?.map((jobs) => {
-                    return (
-                      <li>
-                        <div class="row">
-                          <div class="large-9 medium-8 column">
-                            <a
-                              class="title"
-                              href="top-jobs-fuer-studierende/index.html"
-                            >
-                              {jobs?.title}
-                            </a>
-                            <p class="descp">{jobs?.description}</p>
-                          </div>
-                          <div class="large-3 medium-4 column">
-                            <p class="location">
-                              <strong>{jobs?.location}</strong>
-                            </p>
-                            <p class="date">{jobs?.date}</p>
-                            <div class="link-wrapper">
-                              <a
-                                class="ghost-btn blue medium"
-                                href="top-jobs-fuer-studierende/index.html"
-                              >
-                                <i class="icon-Pfeil-rechts"></i>Details
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    );
+                  filteredData?.map((jobs, i) => {
+                    return <JobCard jobs={jobs} key={i} />;
                   })}
               </ul>
             </div>
           </div>
         </div>
+        <CurrentJob />
       </div>
     </>
   );
