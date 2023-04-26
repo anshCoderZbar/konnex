@@ -60,7 +60,7 @@ export const Advantages = () => {
             <p>
               Für die Zeitarbeitsbranche gelten eigene Tarifverträge. KONNEX
               Zeitarbeit ist{" "}
-              <a href="http://www.ig-zeitarbeit.de/" target="_blank">
+              <a href="http://www.ig-zeitarbeit.de" target="_blank" rel="noreferrer">
                 Mitglied im iGZ &#8211; Interessenverband Deutscher
                 Zeitarbeitsunternehmen e. V.
               </a>
@@ -91,7 +91,7 @@ export const Advantages = () => {
               für den Sie qualifiziert sind. Frühschicht oder Nachtschicht?
               Ortsgebunden oder familiäre Verpflichtungen? Wir nehmen Rücksicht
               auf Ihre individuellen Bedürfnisse. KONNEX Zeitarbeit legt
-              <a href="#" target="_blank">
+              <a href="/" target="_blank">
                 Wert
               </a>
               auf eine hochwertige Dienstleistung und rundum zufriedene Kunden.
@@ -99,7 +99,7 @@ export const Advantages = () => {
               wohlfühlen.
             </p>
             <div className="text-center">
-              <a className="ghost-btn" href="#">
+              <a className="ghost-btn" href="/">
                 <i className="icon-Pfeil-rechts"></i>Jetzt bewerben!
               </a>
             </div>
