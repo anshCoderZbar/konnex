@@ -21,7 +21,7 @@ export const SingleJobPage = () => {
   });
   useEffect(() => {
     setData(...singleJob);
-  }, [data]);
+  }, [data,singleJob]);
 
   return (
     <>
