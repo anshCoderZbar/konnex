@@ -18,7 +18,7 @@ export const Navbar = () => {
               <ul className="title-area">
                 <li className="name"></li>
                 <li className="toggle-topbar menu-icon">
-                  <a href="#" onClick={() => setActive(!active)}>
+                  <a href="/" onClick={() => setActive(!active)}>
                     <span>Menu</span>
                   </a>
                 </li>
