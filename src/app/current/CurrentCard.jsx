@@ -5,9 +5,9 @@ export const CurrentCard = () => {
   return (
     <div className="facetwp-template" data-name="aktuelles">
       {currentData.length >= 1 &&
-        currentData?.map((data) => {
+        currentData?.map((data,i) => {
           return (
-            <article className="news-box">
+            <article key={i} className="news-box">
               <div className="row">
                 <div className="medium-4 column">
                   <a href="../aktuelle-informationen-zu-corona-covid-19/index.html">
@@ -35,7 +35,7 @@ export const CurrentCard = () => {
                       {data?.title ? data?.title : ""}
                     </a>
                   </h3>
-                  <p class="subheadline">
+                  <p className="subheadline">
                     {data?.subHeading ? data?.subHeading : ""}
                   </p>
                   <div className="text-content">

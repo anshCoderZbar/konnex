@@ -26,10 +26,10 @@ export const TemporaryWork = () => {
           <span> KölnZeitarbeit heute</span>
         </span>
       </div>
-      <div class="row">
-        <div class="medium-8 tablet-portrait-12">
-          <h1 class="section-title">Zeitarbeit heute – so funktioniert’s</h1>
-          <div class="box"></div>
+      <div className="row">
+        <div className="medium-8 tablet-portrait-12">
+          <h1 className="section-title">Zeitarbeit heute – so funktioniert’s</h1>
+          <div className="box"></div>
         </div>
         <ContactCard />
       </div>

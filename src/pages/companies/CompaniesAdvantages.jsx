@@ -26,10 +26,10 @@ export const CompaniesAdvantages = () => {
           <span>Advantages</span>
         </span>
       </div>
-      <div class="row">
-        <div class="medium-8 tablet-portrait-12   ">
-          <h1 class="section-title">Die KONNEX Vorteile für Unternehmen </h1>
-          <div class="box">
+      <div className="row">
+        <div className="medium-8 tablet-portrait-12   ">
+          <h1 className="section-title">Die KONNEX Vorteile für Unternehmen </h1>
+          <div className="box">
             <p>
               <strong>
                 Überraschende Auftragsspitze oder unverhoffte

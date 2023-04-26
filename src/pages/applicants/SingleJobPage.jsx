@@ -168,6 +168,7 @@ export const SingleJobPage = () => {
                   <a
                     href="https://www.facebook.com/sharer/sharer.php?u=https://konnex-zeitarbeit.de/jobs/auslieferungsfahrer-in-kl-c1-koeln-2/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FacebookLogo />
                   </a>
@@ -176,6 +177,7 @@ export const SingleJobPage = () => {
                   <a
                     href="https://twitter.com/home?status=Auslieferungsfahrer/in%20Kl.%20CE%20(m/w/d)%20https://konnex-zeitarbeit.de/jobs/auslieferungsfahrer-in-kl-c1-koeln-2/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <TwitterLogo />
                   </a>
@@ -184,6 +186,7 @@ export const SingleJobPage = () => {
                   <a
                     href="https://plus.google.com/share?url=https://konnex-zeitarbeit.de/jobs/auslieferungsfahrer-in-kl-c1-koeln-2/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <GoogleLogo />
                   </a>

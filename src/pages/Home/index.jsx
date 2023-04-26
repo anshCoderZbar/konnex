@@ -254,7 +254,7 @@ const Home = () => {
                 title="iGZ Zeitarbeit"
                 href="http://www.ig-zeitarbeit.de/"
                 target="_blank"
-                without
+                
                 rel="noreferrer"
               >
                 <span style={{ color: "#144294" }}>

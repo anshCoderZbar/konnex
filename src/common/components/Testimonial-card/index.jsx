@@ -39,7 +39,6 @@ export const TestimonialCard = () => {
           <a
             href="https://www.facebook.com/KONNEXZeitarbeit?fref=ts"
             target="_blank"
-            without
             rel="noreferrer"
           >
             <span className="icon-fb-icon icon50fz">
@@ -52,7 +51,7 @@ export const TestimonialCard = () => {
           <a
             href="https://www.xing.com/profile/Isa_Yelen"
             target="_blank"
-            without
+            
             rel="noreferrer"
           >
             <span className="icon-xing-icon icon50fz">
@@ -75,7 +74,7 @@ export const TestimonialCard = () => {
             className="social-svg-icon"
             href="https://www.instagram.com/konnex_zeitarbeit"
             target="_blank"
-            without
+            
             rel="noreferrer"
           >
             <span className="icon-instagram-icon icon50fz">

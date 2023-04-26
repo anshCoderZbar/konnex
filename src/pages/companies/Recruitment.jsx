@@ -26,12 +26,12 @@ export const Recruitment = () => {
           <span>Personalvermittlung </span>
         </span>
       </div>
-      <div class="row">
-        <div class="medium-8 tablet-portrait-12">
-          <h1 class="section-title">
+      <div className="row">
+        <div className="medium-8 tablet-portrait-12">
+          <h1 className="section-title">
             Personalvermittlung – wir finden Fachkräfte
           </h1>
-          <div class="box"></div>
+          <div className="box"></div>
         </div>
         <ContactCard />
       </div>

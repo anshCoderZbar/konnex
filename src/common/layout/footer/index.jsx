@@ -13,7 +13,7 @@ const Footer = () => {
                   <a
                     href="http://maps.google.com/?q=Weyerstra%c3%9fe%2027%2050676%20K%c3%b6ln"
                     target="_blank"
-                    without
+                    
                     rel="noreferrer"
                   >
                     <i className="icon-pin-icon">
