@@ -17,9 +17,9 @@ const AllRoutes = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/home" />} />
+        <Route exact path="/" element={<Navigate to="/home" />} />
         <Route
-          path="/home"
+          exact path="/home"
           element={
             <PublicRoutes>
               <Home />
@@ -27,7 +27,7 @@ const AllRoutes = () => {
           }
         />
         <Route
-          path="/contact"
+          exact path="/contact"
           element={
             <PublicRoutes>
               <ContactPage />
@@ -35,7 +35,7 @@ const AllRoutes = () => {
           }
         />
         <Route
-          path="/advantages"
+          exact path="/advantages"
           element={
             <PublicRoutes>
               <Advantages />
@@ -43,7 +43,7 @@ const AllRoutes = () => {
           }
         />
         <Route
-          path="/jobs"
+          exact path="/jobs"
           element={
             <PublicRoutes>
               <Jobs />
@@ -51,7 +51,7 @@ const AllRoutes = () => {
           }
         />
         <Route
-          path="/jobs/:slug"
+          exact path="/jobs/:slug"
           element={
             <PublicRoutes>
               <SingleJobPage />
@@ -59,7 +59,7 @@ const AllRoutes = () => {
           }
         />
         <Route
-          path="/apply-now"
+          exact path="/apply-now"
           element={
             <PublicRoutes>
               <ApplyNow />
@@ -67,7 +67,7 @@ const AllRoutes = () => {
           }
         />
         <Route
-          path="/current"
+          exact path="/current"
           element={
             <PublicRoutes>
               <CurrentPage />
@@ -75,7 +75,7 @@ const AllRoutes = () => {
           }
         />
         <Route
-          path="/company-advantages"
+          exact path="/company-advantages"
           element={
             <PublicRoutes>
               <CompaniesAdvantages />
@@ -83,7 +83,7 @@ const AllRoutes = () => {
           }
         />
         <Route
-          path="/temporary-work"
+          exact path="/temporary-work"
           element={
             <PublicRoutes>
               <TemporaryWork />
@@ -91,7 +91,7 @@ const AllRoutes = () => {
           }
         />
         <Route
-          path="/recruitment"
+          exact path="/recruitment"
           element={
             <PublicRoutes>
               <Recruitment />
